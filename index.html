@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Truck de Pasta</title>
+    <link rel="stylesheet" href="style.css"> <!-- Enlace a tu archivo CSS para estilos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logo.png" alt="Logo de la Empresa"> <!-- Aquí puedes agregar tu logo -->
+            <h1>Food Truck de Pasta</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="menu">
+            <h2>Menú</h2>
+            <div class="menu">
+                <div class="plato">
+                    <h3>Spaghetti</h3>
+                    <img src="img/espaguetti.jpg" alt="Spaghetti Carbonara">
+                    <p>Descripción: Pasta spaghetti con salsa.</p>
+                    <p>Precio: $8</p>
+                    <a href="ordenarpedido/spaghetti/index2.html" class="button primary">Ordenar pedido</a>
+                </div>
+                <div class="plato">
+                    <h3>Foccacia</h3>
+                    <img src="img/focaciio.jpg" alt="focacia">
+                    <p>Descripción: Lasaña casera con carne molida y salsa de tomate.</p>
+                    <p>Precio: $10</p>
+                    <a href="ordenarpedido/Foccacia/index2.html" class="button primary">Ordenar pedido</a>
+                </div>
+                <div class="plato">
+                    <h3>Raviolis</h3>
+                    <img src="img/raviolis.jpg" alt="raviolsis">
+                    <p>Descripción: Lasaña casera con carne molida y salsa de tomate.</p>
+                    <p>Precio: $10</p>
+                    <a href="ordenarpedido/Raviolis/index2.html" class="button primary">Ordenar pedido</a>
+                </div>
+                <!-- Agrega más platos según sea necesario -->
+            </div>
+        </section>
+
+        <section id="ubicacion">
+            <h2>Ubicación</h2>
+            <p>Nos encontrarás en:</p>
+            <address>
+                Dirección: Calle Principal, Ciudad, Estado, Código Postal<br>
+                Teléfono: 123-456-7890<br>
+                Correo electrónico: info@foodtruckdepasta.com
+            </address>
+            <!-- Agrega un mapa si lo deseas -->
+        </section>
+
+        <section id="trabajadores">
+            <h2>Nuestro Equipo</h2>
+            <div class="equipo">
+                <div class="trabajador">
+                    <img src="trabajador1.jpg" alt="Trabajador 1" class="perfil">
+                    <h3>Ingrid</h3>
+                    <p>Gerente</p>
+                </div>
+                <div class="trabajador">
+                    <img src="trabajador1.jpg" alt="Trabajador 1" class="perfil">
+                    <h3>Adria</h3>
+                    <p>Cocinero</p>
+                </div>
+                <div class="trabajador">
+                    <img src="trabajador1.jpg" alt="Trabajador 1" class="perfil">
+                    <h3>Ruben</h3>
+                    <p>Administracion</p>
+                </div>
+                <div class="trabajador">
+                    <img src="trabajador1.jpg" alt="Trabajador 1" class="perfil">
+                    <h3>Julia</h3>
+                    <p>Cheff</p>
+                </div>
+                <div class="trabajador">
+                    <img src="trabajador2.jpg" alt="Trabajador 2" class="perfil">
+                    <h3>Deepak</h3>
+                    <p>Cocinero</p>
+                </div>
+                <!-- Agrega más trabajadores según sea necesario -->
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p>¡Contáctanos para reservaciones o cualquier pregunta!</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required><br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+                <button type="submit" class="button primary">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Síguenos en redes sociales:</p>
+            <ul>
+                <li><a href="https://facebook.com/foodtruckdepasta" target="_blank">Facebook</a></li>
+                <li><a href="https://instagram.com/foodtruckdepasta" target="_blank">Instagram</a></li>
+                <!-- Agrega más enlaces a redes sociales según sea necesario -->
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
